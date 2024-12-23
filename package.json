@@ -1,0 +1,13 @@
+{
+    "name": "wlc--typescript-compilation-issue-2024-12-23",
+    "license": "WTFPL",
+    "scripts": {
+        "approach-1": "ts-node  src/index.ts",
+        "approach-2": "tsc  --project ./src/parts/tsconfig.json",
+        "start": "npm  run  approach-1"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    }
+}
